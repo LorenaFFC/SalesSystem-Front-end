@@ -1,3 +1,4 @@
+import { SerivoPrestadoService } from './serivo-prestado.service';
 import { ClientesModule } from './clientes/clientes.module';
 import { FormsModule } from '@angular/forms';
 
@@ -27,7 +28,8 @@ import {ServicoPrestadoModule} from './servico-prestado/servico-prestado.module'
 
   ],
   providers: [
-    ClientesService
+    ClientesService,
+    SerivoPrestadoService
   ],
   bootstrap: [AppComponent]
 })
