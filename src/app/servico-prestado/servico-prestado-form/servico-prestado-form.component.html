@@ -64,9 +64,9 @@
         <div class="form-group">
           <label>Data </label>
             <input class="form-control"
-                    [(ngModel)]= "servico.data"
+                    [(ngModel)]= "servico.dataCadastro"
                     type="text"
-                    name="data"
+                    name="dataCadastro"
                     id="inputData">
         </div>
       </div>
@@ -78,6 +78,11 @@
         <button type="submit" class="btn btn-success">
           <i class="fa fa-save"></i>
           Salvar </button>
+
+
+          <button type="button" class="btn btn-danger ml-1" routerLink="/servico-prestado-list" >
+            <i class="fa fa-arrow-alt-circle-left" ></i> BACK
+        </button>
       </div>
     </div>
   </form >
